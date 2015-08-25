@@ -1,4 +1,7 @@
 FROM ubuntu:12.04
+
 ADD . /home/dry-dock/u12/
-RUN cd /home/dry-dock/u12 && ./script.sh
-RUN echo 'Completed'
+
+RUN /home/dry-dock/u12/script.sh && rm -rf /home/dry-dock
+
+CMD ["/bin/bash"]

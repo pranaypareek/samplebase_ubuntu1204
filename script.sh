@@ -14,8 +14,7 @@ apt-get update && apt-get install -y \
   python-software-properties \
   openssl \
   wget \
-  unzip \
-  software-properties-common \
+  unzip
 
 # Install the latest git
 sudo add-apt-repository ppa:git-core/ppa -y
