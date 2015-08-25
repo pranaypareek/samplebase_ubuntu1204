@@ -1,0 +1,6 @@
+language: python
+
+node_js:
+  - 2.7
+
+script: true
